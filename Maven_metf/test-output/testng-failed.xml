@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1234]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testNgPack.TestClassABC">
+        <methods>
+          <include name="verifyPrivacyLink123"/>
+          <include name="clearPomObjects"/>
+          <include name="verifyCookiesLink123"/>
+          <include name="afterMethod"/>
+          <include name="verifyTermLink123"/>
+          <include name="beforeMehtod"/>
+          <include name="afterTest"/>
+          <include name="openBrowser"/>
+          <include name="creatPomObjects"/>
+        </methods>
+      </class> <!-- testNgPack.TestClassABC -->
+      <class name="testNgPack.TestClassXYZ">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyTermLink123"/>
+          <include name="beforeMehtod"/>
+          <include name="creatPomObjects"/>
+          <include name="verifyCookiesLink123"/>
+          <include name="afterTest"/>
+          <include name="clearPomObjects"/>
+          <include name="openBrowser"/>
+          <include name="verifyPrivacyLink123"/>
+        </methods>
+      </class> <!-- testNgPack.TestClassXYZ -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite1234] -->
